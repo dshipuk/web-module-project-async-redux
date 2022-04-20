@@ -2,10 +2,17 @@ import React from "react";
 import "./App.css";
 import Posts from "./posts";
 
+import styled from "styled-components"
+
+const HeaderTextStyled = styled.h1`
+  color: white;
+`
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Async Redux Project</h1>
+      <HeaderTextStyled>Async Redux Project</HeaderTextStyled>
       <Posts />
     </div>
   );
